@@ -51,81 +51,12 @@ def load_data():
 
     # Merge category/item/brand into sales (for charts)
     if "product_id" in sales.columns and "product_id" in products.columns:
-        keep_cols = [c for c in ["product_id", "category", "item", "brand"] if c in products.columns]
+        keep_cols = [c for c in ["product_id", "category", "item", "brand", "product"] if c in products.columns]
         if keep_cols:
-            sales = sales.merge(
-                products[keep_cols],
-                on="product_id",
-                how="left"
-            )
+            sales = sales.merge(products[keep_cols], on="product_id", how="left")
 
     return products, inventory, sales
 
-    products = load_csv([
-        "data/clean/products_clean.csv",
-        "products_clean.csv",
-        "clean_product.csv"
-    ])
-    inventory = load_csv([
-        "data/clean/inventory_clean.csv",
-        "inventory_clean.csv",
-        "clean_inventory.csv"
-    ])
-    sales = load_csv([
-        "data/clean/sales_clean.csv",
-        "sales_clean.csv",
-        "clean_sales.csv"
-    ])
-   # Add category into sales by merging with products
-
-if "product_id" in sales.columns and "product_id" in products.columns:
-    sales = sales.merge(
-        products[["product_id", "category", "item", "brand"]],
-        on="product_id",
-        how="left"
-    )
-
-# Create revenue column if missing
-if "revenue_aed" not in sales.columns:
-    if "unit_price" in sales.columns and "quantity" in sales.columns:
-        sales["revenue_aed"] = sales["unit_price"] * sales["quantity"]
-    elif "price" in sales.columns and "quantity" in sales.columns:
-        sales["revenue_aed"] = sales["price"] * sales["quantity"]
-
-# Create revenue column if missing
-if "revenue_aed" not in sales.columns:
-    if "unit_price" in sales.columns and "quantity" in sales.columns:
-        sales["revenue_aed"] = sales["unit_price"] * sales["quantity"]
-    elif "price" in sales.columns and "quantity" in sales.columns:
-        sales["revenue_aed"] = sales["price"] * sales["quantity"]
-
-
-# Create revenue column if missing
-if "revenue_aed" not in sales.columns:
-    if "unit_price" in sales.columns and "quantity" in sales.columns:
-        sales["revenue_aed"] = sales["unit_price"] * sales["quantity"]
-    elif "price" in sales.columns and "quantity" in sales.columns:
-        sales["revenue_aed"] = sales["price"] * sales["quantity"]
-
-    sales = sales.merge(
-        # Create revenue column if missing
-if "revenue_aed" not in sales.columns:
-    if "unit_price" in sales.columns and "quantity" in sales.columns:
-        sales["revenue_aed"] = sales["unit_price"] * sales["quantity"]
-    elif "price" in sales.columns and "quantity" in sales.columns:
-        sales["revenue_aed"] = sales["price"] * sales["quantity"]
-
-        products[["product_id", "category", "item", "brand"]],
-        on="product_id",
-        how="left"
-    )
-
-
-    # Ensure date column is datetime
-    if "sale_date" in sales.columns:
-        sales["sale_date"] = pd.to_datetime(sales["sale_date"], errors="coerce")
-
-    return products, inventory, sales
 
 # ---------- Load ----------
 st.title("🛒 UAE Retail Insights Dashboard")
@@ -228,13 +159,7 @@ with tab1:
         top_p = sales_f.groupby("product", as_index=False)["revenue_aed"].sum().sort_values("revenue_aed", ascending=False).head(10)
         st.dataframe(top_p, use_container_width=True)
     else:
-        # Try mapping product_id to product name using products table
-        if "product_id" in sales_f.columns and "revenue_aed" in sales_f.columns and "product_id" in products.columns:
-            merged = sales_f.merge(products[["product_id", "product"]], on="product_id", how="left")
-            top_p = merged.groupby("product", as_index=False)["revenue_aed"].sum().sort_values("revenue_aed", ascending=False).head(10)
-            st.dataframe(top_p, use_container_width=True)
-        else:
-            st.info("Could not compute top products (missing product/product_id or revenue).")
+        st.info("Could not compute top products (missing product or revenue).")
 
 with tab2:
     st.subheader("Inventory Snapshot")
@@ -259,7 +184,3 @@ with tab3:
         st.plotly_chart(fig, use_container_width=True)
 
 st.caption("✅ If you change any file name/path, update the load_csv() paths in app.py.")
-
-
-
-
