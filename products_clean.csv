@@ -1,0 +1,301 @@
+product_id,barcode,product,brand,item,category,price_aed,unit_cost_aed,tax_rate,launch_flag
+P0001,8196001338906,Masafi Sparkling Water (500g),Masafi,Sparkling Water,Beverages,16.02,9.99,0.05,New
+P0002,2654235116159,CeraVe Deodorant,CeraVe,Deodorant,Beauty,12.83,8.79,0.05,Regular
+P0003,1849593103410,Pampers Baby Food (Pack of 6),Pampers,Baby Food,Baby,16.89,12.99,0.05,Regular
+P0004,2553419283277,L'Oréal Conditioner (Pack of 2),L'Oréal,Conditioner,Beauty,22.94,14.53,0.05,Regular
+P0005,3056413953768,Royal Canin Pet Shampoo,Royal Canin,Pet Shampoo,Pet,12.4,9.37,0.05,Regular
+P0006,4969653287106,Zara Cap (Mini),Zara,Cap,Fashion,24.98,14.79,0.05,Regular
+P0007,6697848018454,Lacnor Energy Drink (500g),Lacnor,Energy Drink,Beverages,23.4,18.43,0.05,Regular
+P0008,8281489325286,PepsiCo Sports Drink (1L),PepsiCo,Sports Drink,Beverages,17.61,10.52,0.05,New
+P0009,4303911718221,Bayara Chocolate (Pack of 2),Bayara,Chocolate,Grocery,11.42,7.95,0.05,New
+P0010,8346578713310,Zara Cap (250ml),Zara,Cap,Fashion,32.78,23.22,0.05,Regular
+P0011,3105183473829,Philips Avent Diapers,Philips Avent,Diapers,Baby,11.45,8.32,0.05,New
+P0012,6566701065136,Crocs Belt (500g),Crocs,Belt,Fashion,23.03,18.25,0.05,Regular
+P0013,3178108013264,Vaseline Moisturizer (Large),Vaseline,Moisturizer,Beauty,14.65,8.67,0.05,Regular
+P0014,6064746872349,H&M Flip Flops (1kg),H&M,Flip Flops,Fashion,13.88,11.23,0.05,Regular
+P0015,8820812191367,Nivea Shampoo (Large),Nivea,Shampoo,Beauty,7.36,5.7,0.05,New
+P0016,5435346247515,Almarai Iced Tea (Mini),Almarai,Iced Tea,Beverages,11.06,8.14,0.05,Regular
+P0017,8384251354276,Lulu Cereal (500g),Lulu,Cereal,Grocery,9.45,8.03,0.05,Regular
+P0018,4118244935340,Ariel Detergent (1kg),Ariel,Detergent,Home,15.03,12.47,0.05,New
+P0019,52427868015,Nike Wallet (1L),Nike,Wallet,Fashion,19.73,11.4,0.05,Regular
+P0020,6204505331582,Almarai Energy Drink (1kg),Almarai,Energy Drink,Beverages,8.21,6.57,0.05,Regular
+P0021,6025634216072,Royal Canin Treats (1kg),Royal Canin,Treats,Pet,22.49,18.2,0.05,Regular
+P0022,3036541458687,Vaseline Moisturizer (250ml),Vaseline,Moisturizer,Beauty,12.44,8.15,0.05,Regular
+P0023,196556981693,Huggies Diapers (1L),Huggies,Diapers,Baby,13.79,11.21,0.05,Regular
+P0024,3561595148463,Nivea Sunscreen (Mini),Nivea,Sunscreen,Beauty,8.18,6.24,0.05,New
+P0025,2994680443692,Gerber Pacifier (Pack of 6),Gerber,Pacifier,Baby,11.13,7.97,0.05,Regular
+P0026,2148951343321,Chicco Rash Cream (Large),Chicco,Rash Cream,Baby,14.0,9.56,0.05,Regular
+P0027,7693676320164,Al Islami Rice (500g),Al Islami,Rice,Grocery,9.0,7.61,0.05,Regular
+P0028,7278895798682,Vaseline Face Wash (500g),Vaseline,Face Wash,Beauty,15.36,8.68,0.05,Regular
+P0029,8734714345585,Crocs Cap (1L),Crocs,Cap,Fashion,21.97,15.05,0.05,Regular
+P0030,1665876036691,Lacnor Energy Drink (250ml),Lacnor,Energy Drink,Beverages,12.16,7.53,0.05,Regular
+P0031,6688937346701,Carrefour Chocolate (1L),Carrefour,Chocolate,Grocery,10.91,7.56,0.05,Regular
+P0032,9806990162725,Kong Chew Toy (1kg),Kong,Chew Toy,Pet,25.75,19.76,0.05,Regular
+P0033,6464170805317,Carrefour Tea (Pack of 2),Carrefour,Tea,Grocery,13.4,8.69,0.05,Regular
+P0034,3271937452997,Al Islami Rice (1kg),Al Islami,Rice,Grocery,9.3,5.67,0.05,New
+P0035,9663193149195,Masafi Energy Drink (1L),Masafi,Energy Drink,Beverages,17.96,10.46,0.05,New
+P0036,5067165726287,Lulu Coffee (Mini),Lulu,Coffee,Grocery,8.78,5.96,0.05,Regular
+P0037,5314737996501,Mr. Muscle Toilet Paper (1L),Mr. Muscle,Toilet Paper,Home,14.48,9.86,0.05,Regular
+P0038,5494808313670,Puma Scarf (1L),Puma,Scarf,Fashion,13.66,9.51,0.05,Regular
+P0039,3634957885686,Vaseline Lip Balm (1L),Vaseline,Lip Balm,Beauty,8.46,5.79,0.05,New
+P0040,3518233749896,Chicco Bottle (500g),Chicco,Bottle,Baby,14.42,9.1,0.05,Regular
+P0041,824008427108,Persil Dish Soap (1L),Persil,Dish Soap,Home,17.43,11.14,0.05,Regular
+P0042,4711671902291,Mr. Muscle Toilet Paper,Mr. Muscle,Toilet Paper,Home,14.3,9.75,0.05,Regular
+P0043,8677496499094,Persil Dish Soap (250ml),Persil,Dish Soap,Home,12.93,7.57,0.05,Regular
+P0044,2812067974037,Mai Dubai Iced Tea (250ml),Mai Dubai,Iced Tea,Beverages,12.12,7.63,0.05,New
+P0045,9361832421021,Mr. Muscle Air Freshener (1L),Mr. Muscle,Air Freshener,Home,8.02,4.58,0.05,Regular
+P0046,4887719065942,Mr. Muscle Air Freshener (Pack of 6),Mr. Muscle,Air Freshener,Home,10.47,6.15,0.05,Regular
+P0047,4902787429677,Al Islami Pasta,Al Islami,Pasta,Grocery,11.46,9.61,0.05,Regular
+P0048,2567468071549,Red Bull Cold Brew (500g),Red Bull,Cold Brew,Beverages,19.49,13.11,0.05,Regular
+P0049,8760385977039,Mustela Wipes,Mustela,Wipes,Baby,15.18,12.29,0.05,Regular
+P0050,932480861317,Ariel Paper Towels (500g),Ariel,Paper Towels,Home,7.26,4.95,0.05,Regular
+P0051,4677378263984,Puma Socks (Mini),Puma,Socks,Fashion,30.37,21.24,0.05,Regular
+P0052,8404499727875,Sony Power Bank (Pack of 2),Sony,Power Bank,Electronics,58.28,45.56,0.05,Regular
+P0053,3963605766276,Mustela Bottle (250ml),Mustela,Bottle,Baby,10.62,7.29,0.05,Regular
+P0054,7187026217452,Lulu Olive Oil (500g),Lulu,Olive Oil,Grocery,16.68,14.0,0.05,Regular
+P0055,5780913431614,Frontline Cat Food (Pack of 6),Frontline,Cat Food,Pet,19.31,15.56,0.05,Regular
+P0056,5045562386921,Lacnor Cold Brew,Lacnor,Cold Brew,Beverages,18.65,14.14,0.05,Regular
+P0057,7923747407488,Belkin Smart Watch (250ml),Belkin,Smart Watch,Electronics,49.71,36.43,0.05,Regular
+P0058,6474367136957,Logitech Power Bank (1L),Logitech,Power Bank,Electronics,59.85,49.89,0.05,Regular
+P0059,909743953393,Dettol Air Freshener (1L),Dettol,Air Freshener,Home,15.12,12.75,0.05,Regular
+P0060,7095214562324,Clorox Paper Towels (1L),Clorox,Paper Towels,Home,18.94,15.55,0.05,Regular
+P0061,4517123685169,Johnson's Baby Food (Large),Johnson's,Baby Food,Baby,11.38,7.14,0.05,Regular
+P0062,9651370985933,Lulu Tea (1L),Lulu,Tea,Grocery,12.62,7.41,0.05,Regular
+P0063,471138267588,Masafi Cold Brew,Masafi,Cold Brew,Beverages,9.14,6.81,0.05,New
+P0064,4053773515857,Kong Treats (Pack of 6),Kong,Treats,Pet,8.86,6.61,0.05,Regular
+P0065,1390053293184,Bayara Spices (Large),Bayara,Spices,Grocery,17.89,10.86,0.05,New
+P0066,4228421020537,CeraVe Moisturizer,CeraVe,Moisturizer,Beauty,21.64,14.04,0.05,New
+P0067,8117758917831,Johnson's Diapers (Pack of 6),Johnson's,Diapers,Baby,13.13,8.27,0.05,New
+P0068,7661771159217,Bayara Honey,Bayara,Honey,Grocery,19.13,13.15,0.05,Regular
+P0069,7896118367363,Xiaomi Phone Case (1L),Xiaomi,Phone Case,Electronics,75.68,50.27,0.05,Regular
+P0070,5452711116153,Mustela Rash Cream (Pack of 6),Mustela,Rash Cream,Baby,10.74,7.25,0.05,New
+P0071,494519832731,Xiaomi Earbuds (Pack of 6),Xiaomi,Earbuds,Electronics,75.68,56.84,0.05,Regular
+P0072,6899809402443,Red Bull Soda (250ml),Red Bull,Soda,Beverages,23.06,13.48,0.05,Regular
+P0073,1201836675250,Pampers Bottle (Pack of 6),Pampers,Bottle,Baby,13.3,8.04,0.05,New
+P0074,1476797643819,Clorox Cleaning Spray,Clorox,Cleaning Spray,Home,23.28,18.97,0.05,New
+P0075,8403690034324,Huggies Pacifier (Large),Huggies,Pacifier,Baby,5.38,3.42,0.05,Regular
+P0076,2268388516065,Scotch-Brite Air Freshener (Pack of 6),Scotch-Brite,Air Freshener,Home,17.95,10.52,0.05,Regular
+P0077,6416052975168,Al Ain Farms Cereal (Pack of 6),Al Ain Farms,Cereal,Grocery,13.88,11.22,0.05,Regular
+P0078,4535218188357,PepsiCo Iced Tea (Pack of 6),PepsiCo,Iced Tea,Beverages,12.13,8.81,0.05,Regular
+P0079,9212779979956,Philips Avent Baby Lotion (1kg),Philips Avent,Baby Lotion,Baby,13.9,8.07,0.05,Regular
+P0080,4905814770056,Chicco Baby Lotion (1L),Chicco,Baby Lotion,Baby,6.72,3.83,0.05,Regular
+P0081,9807935978203,Clorox Dish Soap (Large),Clorox,Dish Soap,Home,12.47,9.16,0.05,Regular
+P0082,377889255464,Levi's Socks (1kg),Levi's,Socks,Fashion,30.72,25.95,0.05,New
+P0083,5186449251922,Purina Chew Toy (500g),Purina,Chew Toy,Pet,22.58,17.77,0.05,Regular
+P0084,4865281685058,Mustela Baby Food (500g),Mustela,Baby Food,Baby,11.23,6.61,0.05,Regular
+P0085,3221418880597,Persil Paper Towels (250ml),Persil,Paper Towels,Home,10.15,6.62,0.05,Regular
+P0086,7065379473834,JBL USB Cable (1kg),JBL,USB Cable,Electronics,55.95,33.5,0.05,Regular
+P0087,7468862392405,Persil Toilet Paper (Large),Persil,Toilet Paper,Home,18.55,12.25,0.05,Regular
+P0088,4124782613756,Adidas Scarf (500g),Adidas,Scarf,Fashion,30.42,23.22,0.05,Regular
+P0089,1530515220475,Al Ain Farms Spices (Pack of 6),Al Ain Farms,Spices,Grocery,11.19,7.49,0.05,Regular
+P0090,4328986143419,Logitech Router,Logitech,Router,Electronics,79.81,58.63,0.05,Regular
+P0091,1798089324603,Carrefour Dates (500g),Carrefour,Dates,Grocery,13.93,10.33,0.05,Regular
+P0092,5188888067065,Mustela Baby Shampoo (Mini),Mustela,Baby Shampoo,Baby,18.9,11.46,0.05,Regular
+P0093,1952058527727,Pampers Baby Food (250ml),Pampers,Baby Food,Baby,10.53,6.92,0.05,New
+P0094,548687403450,Logitech Power Bank (250ml),Logitech,Power Bank,Electronics,59.46,33.36,0.05,Regular
+P0095,7652775841611,Bayara Coffee (Pack of 6),Bayara,Coffee,Grocery,11.74,6.9,0.05,Regular
+P0096,4796275705967,Tidy Cats Treats (1L),Tidy Cats,Treats,Pet,8.07,5.22,0.05,New
+P0097,2029702135566,Clorox Detergent (Mini),Clorox,Detergent,Home,14.93,11.22,0.05,Regular
+P0098,7192856543107,Al Islami Chocolate (Pack of 2),Al Islami,Chocolate,Grocery,14.75,11.12,0.05,Regular
+P0099,7394731217275,TP-Link Router (1L),TP-Link,Router,Electronics,66.81,55.06,0.05,New
+P0100,4225831323708,Red Bull Soda (1L),Red Bull,Soda,Beverages,12.4,9.46,0.05,Regular
+P0101,1467866912516,Chicco Bottle (500g),Chicco,Bottle,Baby,8.2,6.49,0.05,Regular
+P0102,9226801824220,Levi's Flip Flops (Mini),Levi's,Flip Flops,Fashion,23.4,13.77,0.05,Regular
+P0103,1438424981824,Nestlé Baby Shampoo (1L),Nestlé,Baby Shampoo,Baby,11.94,9.96,0.05,Regular
+P0104,1094396907844,Xiaomi Smart Watch,Xiaomi,Smart Watch,Electronics,50.36,40.43,0.05,Regular
+P0105,7102767735928,Persil Toilet Paper (1L),Persil,Toilet Paper,Home,12.72,10.07,0.05,Regular
+P0106,8815371473214,Nestlé Bottle (Pack of 2),Nestlé,Bottle,Baby,15.51,13.07,0.05,New
+P0107,5953278774706,Carrefour Tea (1kg),Carrefour,Tea,Grocery,26.05,21.08,0.05,Regular
+P0108,47974801622,Coca-Cola Milk Alt (Pack of 2),Coca-Cola,Milk Alt,Beverages,14.31,12.02,0.05,Regular
+P0109,3584168784998,Febreze Cleaning Spray (Mini),Febreze,Cleaning Spray,Home,14.73,9.72,0.05,Regular
+P0110,8523986800027,Barakat Energy Drink (Pack of 2),Barakat,Energy Drink,Beverages,13.12,8.77,0.05,Regular
+P0111,5952694958882,Chicco Rash Cream (1kg),Chicco,Rash Cream,Baby,6.88,4.09,0.05,Regular
+P0112,6940974993097,Crocs Wallet (500g),Crocs,Wallet,Fashion,26.86,21.35,0.05,Regular
+P0113,9130756263686,Ray-Ban Cap,Ray-Ban,Cap,Fashion,27.69,16.46,0.05,Regular
+P0114,8652785854976,Puma T-Shirt (Large),Puma,T-Shirt,Fashion,64.21,45.31,0.05,Regular
+P0115,4375758441983,Neutrogena Moisturizer (1L),Neutrogena,Moisturizer,Beauty,12.59,9.03,0.05,Regular
+P0116,415747338482,Frontline Leash (1L),Frontline,Leash,Pet,14.96,12.51,0.05,Regular
+P0117,833016571208,Clorox Paper Towels (250ml),Clorox,Paper Towels,Home,13.3,9.77,0.05,Regular
+P0118,5401938026202,Logitech USB Cable (1L),Logitech,USB Cable,Electronics,44.3,30.71,0.05,Regular
+P0119,49915478870,Pedigree Flea Spray (1L),Pedigree,Flea Spray,Pet,20.09,16.69,0.05,Regular
+P0120,7420549329661,Sony Router (1kg),Sony,Router,Electronics,86.76,52.74,0.05,New
+P0121,7530463745499,Mustela Wipes (1kg),Mustela,Wipes,Baby,17.76,13.33,0.05,Regular
+P0122,7426841459334,Organic Larder Tea (500g),Organic Larder,Tea,Grocery,9.79,6.44,0.05,Regular
+P0123,6878339187853,JBL Router (Pack of 2),JBL,Router,Electronics,108.96,74.8,0.05,Regular
+P0124,9822587139710,Almarai Juice (250ml),Almarai,Juice,Beverages,8.24,6.58,0.05,Regular
+P0125,8740640391060,Crocs T-Shirt,Crocs,T-Shirt,Fashion,33.29,19.63,0.05,Regular
+P0126,462265676619,Pampers Wipes (Large),Pampers,Wipes,Baby,28.98,24.06,0.05,New
+P0127,2300478686330,Belkin Charger (Mini),Belkin,Charger,Electronics,47.15,28.46,0.05,Regular
+P0128,690331190794,Puma Scarf (500g),Puma,Scarf,Fashion,22.24,14.07,0.05,Regular
+P0129,3028439599534,Organic Larder Dates (Mini),Organic Larder,Dates,Grocery,13.94,7.85,0.05,Regular
+P0130,9268705685668,Persil Paper Towels (Mini),Persil,Paper Towels,Home,11.29,7.61,0.05,Regular
+P0131,3427086688262,TP-Link Phone Case (250ml),TP-Link,Phone Case,Electronics,39.0,23.6,0.05,Regular
+P0132,5183046990131,CeraVe Sunscreen (Large),CeraVe,Sunscreen,Beauty,13.79,8.95,0.05,New
+P0133,3317393638541,CeraVe Lip Balm,CeraVe,Lip Balm,Beauty,9.28,7.52,0.05,Regular
+P0134,7175355609321,Frontline Flea Spray (Large),Frontline,Flea Spray,Pet,15.89,10.21,0.05,Regular
+P0135,4235369378545,Lulu Tea (Pack of 6),Lulu,Tea,Grocery,9.76,8.1,0.05,Regular
+P0136,2872808010066,Crocs Flip Flops (1kg),Crocs,Flip Flops,Fashion,46.64,28.01,0.05,Regular
+P0137,7509977008864,Belkin Bluetooth Speaker (Mini),Belkin,Bluetooth Speaker,Electronics,50.7,38.64,0.05,New
+P0138,862118233981,Lulu Rice (1L),Lulu,Rice,Grocery,12.03,9.22,0.05,Regular
+P0139,7933410166680,Ariel Cleaning Spray (Pack of 6),Ariel,Cleaning Spray,Home,17.9,14.11,0.05,New
+P0140,5918033974012,Nike T-Shirt (Pack of 6),Nike,T-Shirt,Fashion,17.62,13.41,0.05,New
+P0141,9261429396858,Finish Detergent (250ml),Finish,Detergent,Home,14.58,12.08,0.05,Regular
+P0142,1631599965044,Whiskas Treats,Whiskas,Treats,Pet,21.27,14.89,0.05,Regular
+P0143,2961943114262,H&M Flip Flops (Pack of 6),H&M,Flip Flops,Fashion,15.45,10.15,0.05,Regular
+P0144,7541212678883,Xiaomi USB Cable (1L),Xiaomi,USB Cable,Electronics,71.14,46.83,0.05,New
+P0145,6046618398263,Purina Cat Food (Pack of 2),Purina,Cat Food,Pet,14.75,8.51,0.05,Regular
+P0146,2646471543790,Sony Smart Watch (500g),Sony,Smart Watch,Electronics,87.68,56.14,0.05,Regular
+P0147,5965756924596,Garnier Lip Balm (Pack of 6),Garnier,Lip Balm,Beauty,8.73,5.16,0.05,New
+P0148,4793564651936,Dove Lip Balm (Pack of 2),Dove,Lip Balm,Beauty,8.48,5.12,0.05,Regular
+P0149,1672434266179,Logitech Earbuds (1L),Logitech,Earbuds,Electronics,80.05,66.67,0.05,Regular
+P0150,8911352909656,Ray-Ban Sunglasses (Pack of 2),Ray-Ban,Sunglasses,Fashion,30.08,21.45,0.05,Regular
+P0151,8993756798258,Purina Cat Food (Mini),Purina,Cat Food,Pet,14.7,8.52,0.05,Regular
+P0152,1254573875711,Al Ain Farms Cereal (500g),Al Ain Farms,Cereal,Grocery,15.2,9.71,0.05,Regular
+P0153,512382825862,Levi's Flip Flops (500g),Levi's,Flip Flops,Fashion,21.37,12.18,0.05,New
+P0154,6093796603344,Ray-Ban Belt (Pack of 6),Ray-Ban,Belt,Fashion,29.41,21.73,0.05,Regular
+P0155,4785969691556,Lacnor Juice (500g),Lacnor,Juice,Beverages,14.92,9.84,0.05,Regular
+P0156,5134125286690,Zara Cap (1kg),Zara,Cap,Fashion,21.11,17.43,0.05,Regular
+P0157,8274225790509,TP-Link USB Cable (1kg),TP-Link,USB Cable,Electronics,128.13,77.61,0.05,Regular
+P0158,7676772190343,H&M Cap (Mini),H&M,Cap,Fashion,32.0,25.43,0.05,Regular
+P0159,9788191485806,Al Islami Tea (Large),Al Islami,Tea,Grocery,8.87,6.31,0.05,New
+P0160,4074517133953,Ray-Ban Belt (250ml),Ray-Ban,Belt,Fashion,34.12,19.81,0.05,Regular
+P0161,9584982544949,Pedigree Treats,Pedigree,Treats,Pet,9.57,7.52,0.05,Regular
+P0162,2325367294663,PepsiCo Energy Drink (1kg),PepsiCo,Energy Drink,Beverages,17.73,14.64,0.05,Regular
+P0163,7759017518635,Adidas Socks (Pack of 2),Adidas,Socks,Fashion,40.67,27.28,0.05,Regular
+P0164,8929750017019,Arm & Hammer Litter (Pack of 2),Arm & Hammer,Litter,Pet,10.1,6.37,0.05,Regular
+P0165,2424154152060,Logitech Router (250ml),Logitech,Router,Electronics,93.43,51.41,0.05,Regular
+P0166,3712938700514,Febreze Trash Bags,Febreze,Trash Bags,Home,15.56,11.62,0.05,Regular
+P0167,1554262218905,Arm & Hammer Treats (500g),Arm & Hammer,Treats,Pet,17.95,10.25,0.05,Regular
+P0168,6973112196562,Xiaomi Router (1kg),Xiaomi,Router,Electronics,129.53,99.31,0.05,Regular
+P0169,9994043898360,Philips Avent Baby Lotion (Mini),Philips Avent,Baby Lotion,Baby,12.36,7.82,0.05,New
+P0170,9180552696584,Persil Detergent (Large),Persil,Detergent,Home,10.34,7.22,0.05,New
+P0171,3006848666184,Belkin Router (1L),Belkin,Router,Electronics,48.85,27.11,0.05,New
+P0172,2856914630318,Belkin Phone Case (250ml),Belkin,Phone Case,Electronics,50.12,32.23,0.05,Regular
+P0173,1020275884258,Arm & Hammer Cat Food (1kg),Arm & Hammer,Cat Food,Pet,13.11,9.62,0.05,New
+P0174,4814917785075,Belkin Phone Case (Pack of 6),Belkin,Phone Case,Electronics,75.14,58.72,0.05,New
+P0175,3800030756222,JBL Charger (500g),JBL,Charger,Electronics,73.47,46.03,0.05,New
+P0176,3536541951800,Sadafco Honey (Pack of 6),Sadafco,Honey,Grocery,17.98,14.82,0.05,Regular
+P0177,4451870534946,Anker Bluetooth Speaker (Large),Anker,Bluetooth Speaker,Electronics,66.99,56.02,0.05,New
+P0178,8320603850508,Dove Lip Balm (250ml),Dove,Lip Balm,Beauty,22.39,16.29,0.05,Regular
+P0179,7024103865710,Whiskas Pet Shampoo (Pack of 6),Whiskas,Pet Shampoo,Pet,12.27,7.5,0.05,Regular
+P0180,2344565574315,PepsiCo Energy Drink (Pack of 6),PepsiCo,Energy Drink,Beverages,34.89,19.97,0.05,Regular
+P0181,5618537474116,Garnier Face Wash (Large),Garnier,Face Wash,Beauty,16.76,10.0,0.05,New
+P0182,1356804420674,Anker Phone Case (1kg),Anker,Phone Case,Electronics,49.4,30.36,0.05,Regular
+P0183,32365199419,Vaseline Conditioner (500g),Vaseline,Conditioner,Beauty,9.26,5.38,0.05,Regular
+P0184,1510702966706,Al Islami Pasta (1kg),Al Islami,Pasta,Grocery,15.94,13.08,0.05,Regular
+P0185,4720999347684,Pedigree Leash (1L),Pedigree,Leash,Pet,12.45,8.17,0.05,Regular
+P0186,8380657875988,Adidas T-Shirt (250ml),Adidas,T-Shirt,Fashion,34.81,22.07,0.05,New
+P0187,407859321339,Gerber Pacifier (250ml),Gerber,Pacifier,Baby,15.89,9.6,0.05,Regular
+P0188,5223955905991,Persil Detergent (Pack of 6),Persil,Detergent,Home,13.12,9.48,0.05,Regular
+P0189,1039308705934,Logitech Bluetooth Speaker,Logitech,Bluetooth Speaker,Electronics,49.58,35.33,0.05,New
+P0190,29218515694,JBL Charger (Pack of 2),JBL,Charger,Electronics,39.24,32.4,0.05,Regular
+P0191,7528953926442,Masafi Soda (Pack of 6),Masafi,Soda,Beverages,11.52,7.45,0.05,Regular
+P0192,9029593917251,Anker Smart Watch (Pack of 6),Anker,Smart Watch,Electronics,89.99,75.11,0.05,Regular
+P0193,5704331541007,Red Bull Iced Tea (500g),Red Bull,Iced Tea,Beverages,14.51,12.26,0.05,New
+P0194,6586179327109,Kong Flea Spray (Large),Kong,Flea Spray,Pet,8.71,7.32,0.05,Regular
+P0195,2621815997064,Scotch-Brite Detergent (Pack of 2),Scotch-Brite,Detergent,Home,14.31,8.99,0.05,New
+P0196,6884443106987,JBL USB Cable (250ml),JBL,USB Cable,Electronics,76.31,43.2,0.05,Regular
+P0197,9731032417146,Nike Cap (1L),Nike,Cap,Fashion,19.9,13.1,0.05,Regular
+P0198,6256527047743,Arm & Hammer Flea Spray (Mini),Arm & Hammer,Flea Spray,Pet,14.21,11.63,0.05,Regular
+P0199,1586938068682,Nivea Sunscreen (500g),Nivea,Sunscreen,Beauty,13.74,8.18,0.05,Regular
+P0200,8989921722333,Crocs Belt,Crocs,Belt,Fashion,18.17,11.62,0.05,Regular
+P0201,2945116868541,TP-Link Earbuds (250ml),TP-Link,Earbuds,Electronics,75.58,43.35,0.05,Regular
+P0202,1914856467995,Ray-Ban T-Shirt (500g),Ray-Ban,T-Shirt,Fashion,32.99,19.26,0.05,New
+P0203,653074505447,Puma T-Shirt (Pack of 6),Puma,T-Shirt,Fashion,39.61,25.06,0.05,New
+P0204,7546913736788,Clorox Toilet Paper (1L),Clorox,Toilet Paper,Home,19.47,16.39,0.05,Regular
+P0205,2890233030701,Johnson's Diapers (Pack of 6),Johnson's,Diapers,Baby,8.31,4.73,0.05,Regular
+P0206,1035797279857,Gerber Baby Shampoo (Pack of 6),Gerber,Baby Shampoo,Baby,9.7,6.41,0.05,Regular
+P0207,602933334681,Gerber Baby Lotion (1L),Gerber,Baby Lotion,Baby,16.12,12.49,0.05,Regular
+P0208,3494466574378,Carrefour Rice,Carrefour,Rice,Grocery,16.12,13.27,0.05,Regular
+P0209,8994417154543,Clorox Sponges (Pack of 2),Clorox,Sponges,Home,16.12,8.9,0.05,Regular
+P0210,9652074466605,Persil Air Freshener,Persil,Air Freshener,Home,51.86,30.86,0.05,Regular
+P0211,5842824172489,CeraVe Serum (Large),CeraVe,Serum,Beauty,16.44,12.43,0.05,Regular
+P0212,6554947170998,Belkin Charger (1L),Belkin,Charger,Electronics,99.23,61.19,0.05,Regular
+P0213,8460223569722,Mai Dubai Cold Brew (Pack of 6),Mai Dubai,Cold Brew,Beverages,18.8,13.16,0.05,Regular
+P0214,5007432927122,Huggies Baby Lotion (1kg),Huggies,Baby Lotion,Baby,16.91,11.77,0.05,Regular
+P0215,835058300334,Kong Leash,Kong,Leash,Pet,12.06,8.19,0.05,Regular
+P0216,2104478985628,Johnson's Baby Food (1L),Johnson's,Baby Food,Baby,17.56,10.2,0.05,Regular
+P0217,332309821506,Nestlé Rash Cream (Pack of 6),Nestlé,Rash Cream,Baby,10.27,7.96,0.05,New
+P0218,16761847235,Purina Pet Shampoo (500g),Purina,Pet Shampoo,Pet,12.39,9.02,0.05,New
+P0219,9926189141178,Carrefour Tea (1L),Carrefour,Tea,Grocery,11.36,8.5,0.05,Regular
+P0220,6420873753003,Neutrogena Moisturizer (Pack of 2),Neutrogena,Moisturizer,Beauty,13.86,11.08,0.05,Regular
+P0221,1143744701204,Coca-Cola Juice (Mini),Coca-Cola,Juice,Beverages,30.27,18.0,0.05,New
+P0222,225579415523,Scotch-Brite Cleaning Spray,Scotch-Brite,Cleaning Spray,Home,7.0,4.74,0.05,New
+P0223,7621202169796,PepsiCo Milk Alt (Pack of 6),PepsiCo,Milk Alt,Beverages,17.12,14.36,0.05,Regular
+P0224,7716701450893,Ray-Ban Cap (1kg),Ray-Ban,Cap,Fashion,15.42,12.09,0.05,Regular
+P0225,5628900287724,Garnier Serum (Large),Garnier,Serum,Beauty,11.41,7.76,0.05,Regular
+P0226,8386631779716,Red Bull Cold Brew,Red Bull,Cold Brew,Beverages,19.71,12.26,0.05,Regular
+P0227,1660880199486,Levi's Flip Flops,Levi's,Flip Flops,Fashion,27.73,16.24,0.05,Regular
+P0228,7589975711300,Dove Lip Balm (250ml),Dove,Lip Balm,Beauty,9.23,6.08,0.05,New
+P0229,272614933160,Gerber Bottle (500g),Gerber,Bottle,Baby,10.48,7.49,0.05,Regular
+P0230,917798270808,CeraVe Lip Balm (Pack of 6),CeraVe,Lip Balm,Beauty,17.08,13.07,0.05,New
+P0231,1699586693462,Pedigree Flea Spray (1kg),Pedigree,Flea Spray,Pet,10.43,7.9,0.05,New
+P0232,4858333945224,Chicco Baby Food (Mini),Chicco,Baby Food,Baby,14.52,11.49,0.05,New
+P0233,8460810620034,Nestlé Wipes (Pack of 6),Nestlé,Wipes,Baby,13.68,9.83,0.05,Regular
+P0234,4380571983862,Ariel Paper Towels,Ariel,Paper Towels,Home,10.72,8.09,0.05,New
+P0235,8004397359897,Nivea Sunscreen (Pack of 2),Nivea,Sunscreen,Beauty,28.51,23.6,0.05,Regular
+P0236,2281606484229,Neutrogena Moisturizer (500g),Neutrogena,Moisturizer,Beauty,16.81,11.51,0.05,Regular
+P0237,2590947985150,Scotch-Brite Detergent,Scotch-Brite,Detergent,Home,6.63,4.57,0.05,Regular
+P0238,8615335554399,Garnier Face Wash (Mini),Garnier,Face Wash,Beauty,14.37,11.29,0.05,New
+P0239,561648408585,Adidas T-Shirt (250ml),Adidas,T-Shirt,Fashion,21.51,16.15,0.05,Regular
+P0240,8112880133616,Nike Flip Flops (Pack of 2),Nike,Flip Flops,Fashion,36.54,23.35,0.05,Regular
+P0241,5011024819344,Garnier Deodorant (Large),Garnier,Deodorant,Beauty,10.2,7.9,0.05,New
+P0242,6180919015815,Arm & Hammer Leash,Arm & Hammer,Leash,Pet,12.93,9.56,0.05,Regular
+P0243,6072832684240,Clorox Air Freshener (Pack of 6),Clorox,Air Freshener,Home,16.07,10.2,0.05,Regular
+P0244,8814353682224,Johnson's Diapers (Pack of 6),Johnson's,Diapers,Baby,18.23,10.7,0.05,New
+P0245,8781414139754,CeraVe Sunscreen,CeraVe,Sunscreen,Beauty,8.85,5.17,0.05,Regular
+P0246,5775949299550,Philips Avent Baby Lotion (250ml),Philips Avent,Baby Lotion,Baby,11.98,6.95,0.05,Regular
+P0247,4525777547818,Purina Treats (Pack of 6),Purina,Treats,Pet,11.4,7.34,0.05,Regular
+P0248,3411080996935,Sony Power Bank (Mini),Sony,Power Bank,Electronics,53.06,42.85,0.05,New
+P0249,2563942788163,Bayara Honey (Large),Bayara,Honey,Grocery,24.98,17.81,0.05,Regular
+P0250,8272299275038,Philips Avent Diapers (1kg),Philips Avent,Diapers,Baby,15.51,12.48,0.05,Regular
+P0251,8567700518447,Adidas Belt (250ml),Adidas,Belt,Fashion,17.44,10.98,0.05,Regular
+P0252,8463865577902,TP-Link USB Cable (500g),TP-Link,USB Cable,Electronics,91.95,60.65,0.05,Regular
+P0253,3222591365178,JBL Router (1L),JBL,Router,Electronics,140.16,86.76,0.05,Regular
+P0254,302992280928,H&M Flip Flops (Pack of 6),H&M,Flip Flops,Fashion,38.91,28.3,0.05,Regular
+P0255,9904137977239,Bayara Olive Oil (Pack of 6),Bayara,Olive Oil,Grocery,7.91,6.54,0.05,Regular
+P0256,5799136621030,Pedigree Treats (1kg),Pedigree,Treats,Pet,11.36,8.37,0.05,Regular
+P0257,8811729806864,Whiskas Treats,Whiskas,Treats,Pet,20.98,12.66,0.05,Regular
+P0258,5991624731492,Mustela Diapers (Pack of 6),Mustela,Diapers,Baby,10.51,6.5,0.05,Regular
+P0259,9818063565128,Royal Canin Pet Shampoo,Royal Canin,Pet Shampoo,Pet,15.73,8.68,0.05,Regular
+P0260,9463688725886,Tidy Cats Pet Shampoo (Pack of 2),Tidy Cats,Pet Shampoo,Pet,17.66,14.24,0.05,Regular
+P0261,2137213865893,Zara Wallet (Pack of 6),Zara,Wallet,Fashion,19.6,14.18,0.05,Regular
+P0262,2796114351906,Carrefour Olive Oil (500g),Carrefour,Olive Oil,Grocery,13.19,11.07,0.05,New
+P0263,7703843098830,Tidy Cats Leash (1kg),Tidy Cats,Leash,Pet,4.33,3.31,0.05,Regular
+P0264,1465669380112,Xiaomi Earbuds (1kg),Xiaomi,Earbuds,Electronics,46.59,28.97,0.05,New
+P0265,7690426818186,Scotch-Brite Cleaning Spray (250ml),Scotch-Brite,Cleaning Spray,Home,12.32,10.34,0.05,Regular
+P0266,9476973577909,Clorox Cleaning Spray (Mini),Clorox,Cleaning Spray,Home,8.7,6.88,0.05,Regular
+P0267,3565880434163,Zara Socks (250ml),Zara,Socks,Fashion,48.01,27.38,0.05,Regular
+P0268,2373334333396,Johnson's Wipes (1L),Johnson's,Wipes,Baby,8.16,5.65,0.05,Regular
+P0269,9080759579478,Huggies Baby Lotion (Large),Huggies,Baby Lotion,Baby,11.54,6.76,0.05,New
+P0270,8678085627188,TP-Link Phone Case,TP-Link,Phone Case,Electronics,69.81,43.05,0.05,Regular
+P0271,5594284347951,Nike Scarf (500g),Nike,Scarf,Fashion,44.9,24.85,0.05,Regular
+P0272,5647292931435,Chicco Baby Lotion (Pack of 2),Chicco,Baby Lotion,Baby,8.15,5.52,0.05,Regular
+P0273,7026728857446,Royal Canin Leash (1kg),Royal Canin,Leash,Pet,20.23,12.01,0.05,Regular
+P0274,7175455884505,Al Ain Farms Spices (1L),Al Ain Farms,Spices,Grocery,13.51,10.23,0.05,New
+P0275,9982455877165,Frontline Cat Food (250ml),Frontline,Cat Food,Pet,9.55,7.74,0.05,Regular
+P0276,6996112535544,Finish Toilet Paper (Pack of 2),Finish,Toilet Paper,Home,15.83,12.83,0.05,Regular
+P0277,9876220234133,Ariel Sponges (Pack of 2),Ariel,Sponges,Home,14.44,11.79,0.05,Regular
+P0278,8006811492166,Belkin USB Cable (Large),Belkin,USB Cable,Electronics,54.05,31.28,0.05,Regular
+P0279,2820055778482,Persil Trash Bags (1kg),Persil,Trash Bags,Home,13.8,10.64,0.05,Regular
+P0280,8845783174560,Puma Cap (Pack of 6),Puma,Cap,Fashion,23.69,17.23,0.05,Regular
+P0281,5478077406493,Ariel Paper Towels (1kg),Ariel,Paper Towels,Home,14.01,7.75,0.05,Regular
+P0282,6326634163893,Dove Shampoo (Pack of 6),Dove,Shampoo,Beauty,16.98,10.3,0.05,Regular
+P0283,2417974973502,Ariel Air Freshener (1kg),Ariel,Air Freshener,Home,23.46,15.81,0.05,Regular
+P0284,2703120735644,Anker Earbuds (1L),Anker,Earbuds,Electronics,43.24,26.19,0.05,New
+P0285,2046187234607,Crocs Scarf (500g),Crocs,Scarf,Fashion,57.2,43.42,0.05,New
+P0286,3718376452084,PepsiCo Iced Tea,PepsiCo,Iced Tea,Beverages,6.8,5.31,0.05,Regular
+P0287,3136502491637,Coca-Cola Sports Drink,Coca-Cola,Sports Drink,Beverages,12.77,9.47,0.05,Regular
+P0288,5132719500528,Lulu Rice (1kg),Lulu,Rice,Grocery,16.54,12.98,0.05,Regular
+P0289,7306524077843,Coca-Cola Energy Drink (Pack of 2),Coca-Cola,Energy Drink,Beverages,14.86,9.21,0.05,Regular
+P0290,4982182744858,Puma Belt (Large),Puma,Belt,Fashion,21.8,15.55,0.05,Regular
+P0291,9351863878291,Ray-Ban T-Shirt (Pack of 2),Ray-Ban,T-Shirt,Fashion,25.21,19.41,0.05,Regular
+P0292,1022031731097,Febreze Cleaning Spray (Mini),Febreze,Cleaning Spray,Home,11.33,8.41,0.05,New
+P0293,371705865097,Tidy Cats Flea Spray (500g),Tidy Cats,Flea Spray,Pet,10.95,6.18,0.05,Regular
+P0294,8113863383929,Clorox Detergent (250ml),Clorox,Detergent,Home,18.13,14.51,0.05,New
+P0295,1228685289759,Frontline Cat Food (Pack of 6),Frontline,Cat Food,Pet,15.26,11.48,0.05,Regular
+P0296,9398368457767,Nestlé Bottle (Pack of 2),Nestlé,Bottle,Baby,10.56,7.11,0.05,Regular
+P0297,433504888995,Bayara Rice (1L),Bayara,Rice,Grocery,18.45,13.45,0.05,Regular
+P0298,5933441969313,Anker Power Bank (1L),Anker,Power Bank,Electronics,74.26,51.1,0.05,New
+P0299,9409610556616,Johnson's Rash Cream (500g),Johnson's,Rash Cream,Baby,17.89,12.46,0.05,Regular
+P0300,8925832067996,L'Oréal Shampoo (Pack of 2),L'Oréal,Shampoo,Beauty,16.78,9.5,0.05,Regular
