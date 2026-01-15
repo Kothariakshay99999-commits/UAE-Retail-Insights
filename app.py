@@ -17,6 +17,47 @@ def load_data():
     products = load_csv([
         "data/clean/products_clean.csv",
         "products_clean.csv",
+        "clean_product.csv",
+        "products_clean.csv"
+    ])
+
+    inventory = load_csv([
+        "data/clean/inventory_clean.csv",
+        "inventory_clean.csv",
+        "clean_inventory.csv",
+        "inventory_clean.csv"
+    ])
+
+    sales = load_csv([
+        "data/clean/sales_clean.csv",
+        "sales_clean.csv",
+        "clean_sales.csv",
+        "sales_clean.csv"
+    ])
+
+    # Ensure sale_date is datetime
+    if "sale_date" in sales.columns:
+        sales["sale_date"] = pd.to_datetime(sales["sale_date"], errors="coerce")
+
+    # Merge category/item/brand into sales
+    if "product_id" in sales.columns and "product_id" in products.columns:
+        merge_cols = [c for c in ["product_id", "category", "item", "brand"] if c in products.columns]
+        sales = sales.merge(products[merge_cols], on="product_id", how="left")
+
+    # Revenue column
+    if "revenue_aed" not in sales.columns:
+        if "unit_price" in sales.columns and "quantity" in sales.columns:
+            sales["revenue_aed"] = sales["unit_price"] * sales["quantity"]
+        elif "price" in sales.columns and "quantity" in sales.columns:
+            sales["revenue_aed"] = sales["price"] * sales["quantity"]
+        else:
+            sales["revenue_aed"] = 0
+
+    return products, inventory, sales
+
+    products = load_csv([
+        "data/clean/products_clean.csv",
+        "products_clean.csv",
         "clean_product.csv"
     ])
     inventory = load_csv([
@@ -212,5 +253,6 @@ with tab3:
         st.plotly_chart(fig, use_container_width=True)
 
 st.caption("✅ If you change any file name/path, update the load_csv() paths in app.py.")
+
 
 
