@@ -30,12 +30,28 @@ def load_data():
         "clean_sales.csv"
     ])
    # Add category into sales by merging with products
+
 if "product_id" in sales.columns and "product_id" in products.columns:
     sales = sales.merge(
         products[["product_id", "category", "item", "brand"]],
         on="product_id",
         how="left"
     )
+
+# Create revenue column if missing
+if "revenue_aed" not in sales.columns:
+    if "unit_price" in sales.columns and "quantity" in sales.columns:
+        sales["revenue_aed"] = sales["unit_price"] * sales["quantity"]
+    elif "price" in sales.columns and "quantity" in sales.columns:
+        sales["revenue_aed"] = sales["price"] * sales["quantity"]
+
+# Create revenue column if missing
+if "revenue_aed" not in sales.columns:
+    if "unit_price" in sales.columns and "quantity" in sales.columns:
+        sales["revenue_aed"] = sales["unit_price"] * sales["quantity"]
+    elif "price" in sales.columns and "quantity" in sales.columns:
+        sales["revenue_aed"] = sales["price"] * sales["quantity"]
+
 
 # Create revenue column if missing
 if "revenue_aed" not in sales.columns:
@@ -196,4 +212,5 @@ with tab3:
         st.plotly_chart(fig, use_container_width=True)
 
 st.caption("✅ If you change any file name/path, update the load_csv() paths in app.py.")
+
 
