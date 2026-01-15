@@ -14,37 +14,33 @@ def load_csv(possible_paths):
 
 @st.cache_data
 def load_data():
+    # Load cleaned CSVs (tries multiple possible filenames)
     products = load_csv([
         "data/clean/products_clean.csv",
         "products_clean.csv",
         "clean_product.csv",
-        "products_clean.csv"
+        "products.csv",
     ])
 
     inventory = load_csv([
         "data/clean/inventory_clean.csv",
         "inventory_clean.csv",
         "clean_inventory.csv",
-        "inventory_clean.csv"
+        "inventory.csv",
     ])
 
     sales = load_csv([
         "data/clean/sales_clean.csv",
         "sales_clean.csv",
         "clean_sales.csv",
-        "sales_clean.csv"
+        "sales.csv",
     ])
 
     # Ensure sale_date is datetime
     if "sale_date" in sales.columns:
         sales["sale_date"] = pd.to_datetime(sales["sale_date"], errors="coerce")
 
-    # Merge category/item/brand into sales
-    if "product_id" in sales.columns and "product_id" in products.columns:
-        merge_cols = [c for c in ["product_id", "category", "item", "brand"] if c in products.columns]
-        sales = sales.merge(products[merge_cols], on="product_id", how="left")
-
-    # Revenue column
+    # Create revenue column if missing
     if "revenue_aed" not in sales.columns:
         if "unit_price" in sales.columns and "quantity" in sales.columns:
             sales["revenue_aed"] = sales["unit_price"] * sales["quantity"]
@@ -52,6 +48,16 @@ def load_data():
             sales["revenue_aed"] = sales["price"] * sales["quantity"]
         else:
             sales["revenue_aed"] = 0
+
+    # Merge category/item/brand into sales (for charts)
+    if "product_id" in sales.columns and "product_id" in products.columns:
+        keep_cols = [c for c in ["product_id", "category", "item", "brand"] if c in products.columns]
+        if keep_cols:
+            sales = sales.merge(
+                products[keep_cols],
+                on="product_id",
+                how="left"
+            )
 
     return products, inventory, sales
 
@@ -253,6 +259,7 @@ with tab3:
         st.plotly_chart(fig, use_container_width=True)
 
 st.caption("✅ If you change any file name/path, update the load_csv() paths in app.py.")
+
 
 
 
